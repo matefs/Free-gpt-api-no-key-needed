@@ -30,7 +30,7 @@ Bring life to your projects without breaking the bank! Start using Free GPT API 
 
 ```javascript
 var yourRequest = 'hey, do you work ?';
-fetch(`https://free-unoficial-gpt4o-mini-api-g70n.onrender.com/chat/?query=${encodeURIComponent(yourRequest)}`, {
+fetch(`https://free-unoficial-gpt4o-mini-api-g70n.onrender.com/chat/?query=${yourRequest}`, {
   method: 'GET',
   headers: {
     'Accept': 'application/json'
